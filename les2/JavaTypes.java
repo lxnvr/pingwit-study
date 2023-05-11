@@ -39,5 +39,9 @@ public class JavaTypes {
 
         char myCharUTF = '\n';
 
+        char myCharNum = 33;
+
+        System.out.println(myCharUTF);
+        System.out.println(myCharNum);
     }
 }
