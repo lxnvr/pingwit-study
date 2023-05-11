@@ -2,7 +2,7 @@ package org.example.les2;
 
 public class JavaTypes {
     public static void main(String[] args) {
-         //1й способ
+        //1й способ
         byte myByte = 2;
 
         // 2й способ
@@ -20,7 +20,7 @@ public class JavaTypes {
         System.out.println(myLong);
 
         float myFloat = 2.15f;
-        float myFloat2=100;
+        float myFloat2 = 100;
         System.out.println(myFloat2);
 
         double myDouble = 55.88;
