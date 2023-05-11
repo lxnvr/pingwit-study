@@ -6,7 +6,7 @@ public class JavaOps {
         int num2 = 100;
 
         int sum = num1 + num2;
-        num1+= num2;
+        num1 += num2;
         int sub = num1 - num2;
         System.out.println("Addition = " + sum);
         System.out.println("Substraction = " + sub);
@@ -24,7 +24,7 @@ public class JavaOps {
 
 
         int myint = 100;
-        myint +=10;
+        myint += 10;
         System.out.println("myInt = " + myint);
         System.out.println("myInt++ =" + myint++); // внутри уже 111, а на консоли 110
         System.out.println("myInt++ =" + ++myint); // 112, потому что вначале складываем, а потом выводим
@@ -42,10 +42,10 @@ public class JavaOps {
          */
 
 
-        int myInt22 =  3 << 2;
+        int myInt22 = 3 << 2;
         System.out.println(myInt22);
 
-        int myInt23 =  8 >> 2;
+        int myInt23 = 8 >> 2;
         System.out.println(myInt23);
 
     }

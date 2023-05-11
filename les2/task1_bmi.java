@@ -1,4 +1,5 @@
 package org.example.les2;
+
 import java.util.Scanner;
 
 public class task1_bmi {
@@ -28,8 +29,7 @@ public class task1_bmi {
         if (bmi <= 18.5) {
             System.out.println("Your body mass index is " + bmi);
             System.out.println(n + "To be easy, it's " + ibmi + ". At your age of " + age + " years, you still have time for changes. But who cares.");
-        }
-        else {
+        } else {
             System.out.println("Your body mass index is " + bmi);
             System.out.println(n + "To be easy, it's " + ibmi + ". It's normal, so keep going.");
         }
