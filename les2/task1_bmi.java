@@ -2,6 +2,7 @@ package org.example.les2;
 
 import java.util.Scanner;
 
+//названия классов с большой буквы в camel case и без нижних подчеркиваний, а так все хорошо - +
 public class task1_bmi {
     public static void main(String[] args) {
         // в примере применены преобразования примитивов и математические действия с ними
