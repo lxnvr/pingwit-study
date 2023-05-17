@@ -4,6 +4,7 @@ package org.example.les3.homework;
 Task 5
 Напишите программу, определяющую сумму всех нечетных чисел от 1 до 99
  */
+//+
 public class Task6SumUneven {
     public static void main(String[] args) {
         int sumEven = 0;
