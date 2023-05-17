@@ -15,6 +15,8 @@ Task 8
   **
    *
  */
+
+//+
 public class Task8Draw {
     public static void main(String[] args) {
         Scanner dimension = new Scanner(System.in);
