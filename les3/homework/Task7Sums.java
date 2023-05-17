@@ -10,12 +10,13 @@ Task 7
 public class Task7Sums {
     public static void main(String[] args) {
         int sumEven = 0;
+        //sumOdd
         int sumUnEven = 0;
         int sumAll = 0;
         for (int i = 0; i <= 100; i++) {
-            sumAll = sumAll + i;
+            sumAll = sumAll + i;//общая сумма - sumEven + sumUnEven после цикла
             if (i % 2 == 0) {
-                sumEven = sumEven + i;
+                sumEven = sumEven + i;// лучше краткую запись через +=
             } else {
                 sumUnEven = sumUnEven + i;
             }
