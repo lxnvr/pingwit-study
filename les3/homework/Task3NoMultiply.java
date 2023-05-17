@@ -1,6 +1,6 @@
 package org.example.les3.homework;
 
-import java.io.FilterOutputStream;
+import java.io.FilterOutputStream;//а это зачем?
 
 /*
 Task 3
@@ -23,7 +23,7 @@ public class Task3NoMultiply {
             mult += a;
         }
 
-        Integer result = (isNegative) ? -mult : mult;
+        Integer result = (isNegative) ? -mult : mult;//зачем "упаковывать" в Integer, если можно просто int result = ?
 
         System.out.println(result.intValue());
 
