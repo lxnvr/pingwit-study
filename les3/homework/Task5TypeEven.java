@@ -12,13 +12,12 @@ public class Task5TypeEven {
         }
 
 // да ваще легко
-        System.out.print("Fixed Even row is ");
+        System.out.print("Fixed row is ");
         for (int i = 2; i <= 100; i += 2) {
-            switch (i) {
-                case 100:
-                    System.out.print(i + ".");
-                    break;
-                default:
+            if (i == 100) {
+                System.out.print(i + ".");
+            }
+            else {
                     System.out.print(i + ", ");
 
             }
