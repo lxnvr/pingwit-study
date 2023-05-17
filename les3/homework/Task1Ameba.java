@@ -10,7 +10,7 @@ public class Task1Ameba {
         int amebaCount = 1;
         for (int hour = 3; hour <= 24; hour += 3) {
             System.out.print("in " + hour + " hours we have ameba amount of ");
-            System.out.println(amebaCount *= 2);
+            System.out.println(amebaCount *= 2);//лучше в отдельну/ переменную
         }
         System.out.println("Gretta is happy...");
     }
