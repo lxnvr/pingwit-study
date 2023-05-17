@@ -10,5 +10,18 @@ public class Task5TypeEven {
         for (int i = 2; i <= 100; i += 2) {
             System.out.print(i + ", ");//а может уберем запятую после последнего числа?:)
         }
+
+// да ваще легко
+        System.out.print("Fixed Even row is ");
+        for (int i = 2; i <= 100; i += 2) {
+            switch (i) {
+                case 100:
+                    System.out.print(i + ".");
+                    break;
+                default:
+                    System.out.print(i + ", ");
+
+            }
+        }
     }
-}
+    }
