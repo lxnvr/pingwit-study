@@ -1,4 +1,4 @@
-package org.example.src.main.java.org.example.les4;
+package org.example.les4;
 
 public class ReturnExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example.src.main.java.org.example.les4.homework;
+package org.example.les4.homework;
 
 import java.util.Scanner;
 
