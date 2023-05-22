@@ -2,6 +2,10 @@ package org.example.les4.homework;
 
 import java.util.Scanner;
 
+/*
+Вычислить: 1+2+4+8+...+256
+ */
+
 public class Task1SumWhile {
     public static void main(String[] args) {
         int limitPower = 10;
